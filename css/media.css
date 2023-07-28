@@ -1,0 +1,87 @@
+/*mobile*/
+@media(min-width:320px){
+    .container{
+        width:100%;
+    }
+    .card-row{
+        flex-wrap: wrap;
+    }
+    .card-col-1{
+        padding-left: 30%;
+        display: flex;
+    }
+    .card-col-2{
+        width:100%;
+    }
+    .card-col-3{
+        width:100%;
+    }
+    .view{
+        padding-left: 50px;
+    }
+    .card{
+        display: flex;
+    }
+    .btn{
+        padding-left: 15%;
+    }
+}
+/*ipad*/
+@media(min-width:660px){
+    .container{
+        width:100%;
+    }
+    .card-row{
+        flex-wrap: wrap;
+    }
+    .card-col-1{
+        padding-left: 30%;
+        display: flex;
+        
+    }
+    .card-col-2{
+        width:100%;
+    }
+    .card-col-3{
+        width:100%;
+    }
+    .view{
+        padding-left: 150px;
+    }
+    .card{
+        display: flex;
+    }
+    .btn{
+    padding-left: 35%;
+    }
+}
+/*laptop*/
+@media(min-width:1000px){
+    .container{
+        width:80%;
+        margin:auto;		   
+    }
+    .card-row{
+        display:flex;
+}
+.card-col-1{
+    width:10%;
+    padding-left: 0;
+}
+.card-col-2{
+    width:45%;
+}
+.card-col-3{
+    width:45%;
+   }
+   .view{
+    padding-left: 150px;
+}
+.card{
+    flex-direction: column;
+    padding-left: 10px;
+}
+.btn{
+    padding-left: 25%;
+}
+}
